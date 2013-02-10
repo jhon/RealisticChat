@@ -1,8 +1,5 @@
-CakeMushroom's RealisticChat - realistic local chat!
-
-*a collaboration of cakenggt and mushroomhostage*
-
-***[RealisticChat 2.0](http://dev.bukkit.org/server-mods/realisticchat/files/5-realistic-chat-2-0/)*** - released 2012/06/09, now with smartphone ringing/answering, permissions support
+RealisticChat
+=======
 
 Features:
 
@@ -13,6 +10,11 @@ Features:
 * Ear trumpets
 * Walkie-talkies
 * Smartphones
+
+## Building
+This version of RealisticChat uses maven to handle dependencies
+* Install [Maven 3](http://maven.apache.org/download.html)
+* From the root of this repo: `mvn clean package`
 
 ## Basic Usage
 Talk normally. You'll only be able to clearly hear other players within 25 meters.
@@ -120,3 +122,4 @@ realisticchat.walkie.talk: Allows you to talk into walkie-talkies
 realisticchat.walkie.hear: Allows you to hear from walkie-talkies
 realisticchat.smartphone.call: Allows you to place calls with your smartphone
 realisticchat.smartphone.answer: Allows you to answer calls with your smartphone
+
